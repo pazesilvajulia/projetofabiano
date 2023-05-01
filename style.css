@@ -11,23 +11,96 @@ body{
   }
 
   .titulosi{
-    padding-top: 2px;
-    padding-left: 10px;
+
     -webkit-text-fill-color: rgb(206, 206, 206);
+    padding: 0px 20px;
+    display: flex;
     
     
   }  
   .topo {
-      padding: 0px 20px;
-      padding-top: 30px;
-      display: flex;
-      justify-content: space-between;
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       text-align: center;
-      background-color: rgba(255, 0, 0, 0);
+      background-color: rgb(255, 255, 255);
       box-shadow: 0px 1px 10px rgba(37, 37, 37, 0.568);
       
     }
+
+    .intuito{
+      padding-right: 70px;
+      padding-left: 100px;
+
+    }
+
+    .redes{
+      padding-left: 30px;
+    }
+
+    .subh{
+      text-align: center;
+      padding: 1px 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #947547;
+      box-shadow: 0px 1px 10px rgba(37, 37, 37, 0.568);
+
+    }
+
+    .subh > a {
+      color: white;
+      padding: 10;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .break {
+      flex-basis: 100%;
+      height: 0;
+    }
+
+    .elemento2 {
+      
+      background: rgba(221, 221, 221, 0);
+      width: 1192px;
+      height: 500px;
+      padding: 0 50px;
+      display: flex;
+  }
+
+
+  .tprincipal{
+    font-size: 100px;
+    padding-top: 160px;
+    text-align: center;
+    -webkit-text-fill-color: rgb(160, 109, 61);
+    color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 244, 225),
+      0 0 82px rgb(255, 231, 187),
+      0 0 92px rgb(255, 215, 142),
+      0 0 102px rgb(255, 200, 97),
+      0 0 151px rgb(255, 192, 76);
+  }
+
+  .stprincipal{
+    padding-left: 10px;
+    font-size: 80px;
+    font-weight: lighter;
+    padding-top: 170px;
+  }
+
+
+  .tudo{
+      display: flex;
+      flex-wrap: wrap;
     
+  }
+
     main {
       padding: 20px 0px;
       display: flex;
@@ -35,13 +108,26 @@ body{
 
     }
     
+    .nome{
+      text-align: center;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    
     .fim {
       padding: 0px 20px;
-      padding-top: 20px;
+      padding-top: 50px;
       display: flex;
       justify-content: center;
       text-align: center;
-      background-color: rgba(185, 185, 185, 0.479);
+      background-color:  #ffffffd8;
+    }
+
+    .copy{
+      text-align: center;
+      padding-bottom: 30px;
     }
   
     
@@ -160,6 +246,8 @@ body{
 
     a {
       text-decoration: none;
+      -webkit-text-fill-color: rgb(0, 0, 0);
+      
     }
   
     button:before { /* efeito hiperlink botão*/
@@ -169,7 +257,7 @@ body{
       height: 3px;
       bottom: 0;
       left: 0;
-      background-color: #000;
+      background-color: #000000;
       visibility: hidden;
       -webkit-transform: scaleX(0);
       transform: scaleX(0);
@@ -194,11 +282,10 @@ body{
       background-color: #ffffffe0;
       flex: 1;
       transition: .3 all ease;
-      box-shadow: 0px 1px 10px rgba(37, 37, 37, 0.74);
+      box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.74);
       padding-top: 90px;
       padding-left: 10px;
       padding-right: 10px;
-
     }
 
     .card:hover{
@@ -262,4 +349,11 @@ body{
         to {
           transform: translateY(10px);
         }
+      }
+
+      .cvv{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
       }
